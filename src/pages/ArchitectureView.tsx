@@ -97,7 +97,7 @@ export default function ArchitectureView() {
     )
 
     // Create force simulation
-    const simulation = d3.forceSimulation(filteredNodes)
+    const simulation = d3.forceSimulation(filteredNodes as any)
       .force('link', d3.forceLink(filteredLinks).id((d: any) => d.id).distance(100))
       .force('charge', d3.forceManyBody().strength(-300))
       .force('center', d3.forceCenter(width / 2, height / 2))
