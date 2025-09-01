@@ -2,6 +2,7 @@
   "name": "architecture-visualizer",
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://thatrandomasiandev.github.io/Architecture",
   "description": "A companion website for visualizing software architecture and code structure",
   "main": "index.js",
   "scripts": {
