@@ -1,6 +1,7 @@
 {
   "name": "architecture-visualizer",
   "version": "1.0.0",
+  "type": "module",
   "description": "A companion website for visualizing software architecture and code structure",
   "main": "index.js",
   "scripts": {
